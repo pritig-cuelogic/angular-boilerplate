@@ -14,7 +14,8 @@
             'auth',
             'base',
             'dashboard',
-            'user'
+            'user',
+            'test'
 
         ])
         .config(['$urlRouterProvider', '$locationProvider', initializeConfigurationPhase]);
@@ -24,7 +25,7 @@
             enabled: true,
             requireBase: false
         });
-        $urlRouterProvider.otherwise('/login');
+        //$urlRouterProvider.otherwise('/login');
     }
 
 })();
